@@ -1,7 +1,7 @@
 {
   "name": "mycontacts_backend_api",
   "version": "1.0.0",
-  "description": "Express proj",
+  "description": "Node Express Tutorial",
   "main": "server.js",
   "dependencies": {
     "abbrev": "^1.1.1",
@@ -90,14 +90,20 @@
     "utils-merge": "^1.0.1",
     "vary": "^1.1.2"
   },
+  
+    "type":"commonjs"
+  ,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-    "dev": "nodemon server.js"
+    
+    "dev": "nodemon webserver.js"
+
   },
   "author": "Agnisis",
   "license": "MIT",
   "devDependencies": {
     "nodemon": "^2.0.20"
   }
+ 
 }
