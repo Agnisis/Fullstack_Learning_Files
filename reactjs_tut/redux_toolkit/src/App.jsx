@@ -1,15 +1,10 @@
-import { useState } from 'react'
-
 import './App.css'
-
+import AddTodo from './components/AddTodo'
 function App() {
-  const [count, setCount] = useState(0)
-
-  return (
+ return (
     <div className="App">
-      <h1>heloo</h1>
+      <AddTodo/>
     </div>
   )
 }
-
 export default App
